@@ -6,3 +6,6 @@ mystring.o: mystring.c mystring.h
 
 work8.o: work8.c mystring.h
 	gcc -c work8.c
+
+run: mystring
+	./mystring
